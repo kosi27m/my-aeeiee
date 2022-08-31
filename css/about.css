@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/istockphoto-1369826066-612x612.jpg);
+    background-repeat: no-repeat;
+    /* background-position: fixed; */
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.map {
+    text-align: center;
+ /* background-color: black; */
+ /* background:none; */
+ opacity:0.7;
+}
+
+.map section img{
+    background:none;
+}
+
+.map h1 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    background:none;
+}
+
+
+
+.team {
+    margin: 10vh;
+    background:none;
+}
+
+.team h3{
+    color:red;
+    background:none;
+}
+
+.team .intro {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2em;
+    margin-bottom: 8vh;
+    background:none;
+}
+
+
+.team .member{
+    color:white;
+    background:none;
+
+}
+
+.member img {
+    border: 1px solid black;
+    border-radius: 200px;
+    width: 300px;
+    background:none;
+}
+
+.member h3 {
+    color: red;
+    font-size: 30px;
+    padding-left: 5vh;
+    background:none;
+}
+
+.member p{
+    background:none;
+}

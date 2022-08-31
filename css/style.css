@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    background-color:black;
+    align-items:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:smaller;
+    position:fixed;
+    width:100%;
+}
+
+.logo{
+    color:white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:30px;
+    padding-bottom:1vh;
+}
+
+.navbar {
+    display:flex;
+    justify-content:space-around;
+    gap:2em;
+}
+
+.navbar a{
+    text-decoration:none;
+    color:white;
+}
+
+
+
+/* drop */
+
+.drop{
+    position: relative;
+    display: inline-block;
+}
+
+
+.drop .dropdown-item{
+    list-style:none;
+    display: none;
+    position: absolute;
+    background-color:black;
+    min-width: 160px;
+    right:0;
+    box-shadow: 5px 0  0 red;
+    padding: 5px 5px;
+  }
+
+  .drop:hover .dropdown-item{
+    display:block;
+  }
+
+/* dropdown */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+ 
+  
+  .dropdown-content {
+    list-style:none;
+    display: none;
+    position: absolute;
+    background-color:black;
+    min-width: 160px;
+    box-shadow: 5px 0  0 red;
+    padding: 5px 5px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.dropdown-content li {
+    margin: 20px;
+    width:150px;
+    align-items:center;
+}
+
+
+
+.row1:hover{
+background-color:blue;
+}
+
+.row1{
+    display:flex;
+    justify-content:center;
+    padding:6em;
+    background-color:#ffca28;
+}
+
+.row1 .measurement{
+    padding-top:20vh;
+    font-size:23px;
+    color:white;
+}
+
+
+.row1 .measurement button{
+    width:150px;
+    height:40px;
+    font-size:20px;
+background-color:black;
+color:white;
+}
+
+
+.row2{
+    display: flex;
+    justify-content:center;
+    font-size:21px;
+    padding:60px 170px;
+    gap:2em;
+    background-image:url(../img/wikipedia.png);
+    background-repeat: none;
+    background-position:fixed;
+    background-size:cover;
+    animation:fade 10s ease-in-out infinite;   
+}
+
+@keyframes fade{
+    30%{
+        background-image:url(../img/khan_academy.png);
+    }
+
+    80%{background-image: url(../img/image1.png);
+    }
+
+    
+} 
+
+
+
+.row3{
+    display:flex;
+    justify-content:center;
+    gap:2em;
+    padding:60px 170px  100px 170px;
+    font-size:23px;
+    color: white;
+    background-color:#21130d;
+}
+.row3 a{
+    text-decoration:none;
+    color:red;
+}
+
+
+
+.row4{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    padding:10vh;
+    gap:15em;
+    background-color:white;
+    animation:run 5s ease-in-out infinite;
+}
+
+@keyframes run{
+    15%{
+        background-color:blue;
+    }
+
+    30%{
+        background-color:green;
+    }
+
+    50%{
+        background-color: #ffca28;
+    }
+
+    90%{
+        background-color:gold;
+    }
+}
+
+
+.row4 .sign{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;
+    padding-top:3vh;
+}
+
+.form input{
+    width:600px;
+    height:60px;
+    padding-left:20px;
+    outline:none;
+}
+
+.form button{
+    width:626px;
+    height:60px;
+    background-color:red;
+    border:none;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+}
+
+
+
+.row5{
+    display:flex;
+    gap:3em;
+    padding:3vh;
+    background-color:rgb(94, 89, 89);
+}
+
+.row5 a{
+    text-decoration:none;
+    color:white;
+}
+
+
+
+.row6{
+    display:flex;
+    justify-content:space-between;
+    background-color:black;
+    color:white;
+    padding:5vh;
+    align-items:center;
+    
+}
+
+
+.fa{
+    width: 300px;
+}
+
